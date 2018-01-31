@@ -4,13 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
-import { AppRoutingModule } from './app.routing';
+import { AppRoutingModule } from './root/routing';
 import { NavbarModule } from '@common/navbar/navbar.module';
 import { FooterModule } from '@removables/shared/footer/footer.module';
 import { SidebarModule } from '@common/sidebar/sidebar.module';
 import { LbdModule } from '@removables/lbd/lbd.module';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './root/root.component';
 
 import { HomeComponent } from '@removables/home/home.component';
 import { UserComponent } from '@removables/user/user.component';

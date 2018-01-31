@@ -3,8 +3,8 @@ import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: './root.component.html',
+  styleUrls: ['./root.component.css']
 })
 export class AppComponent implements OnInit {
 
