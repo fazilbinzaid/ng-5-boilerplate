@@ -4,6 +4,10 @@
   ],
   "rules": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "arrow-return-shorthand": true,
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
     "arrow-return-shorthand": true,
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
@@ -15,10 +19,13 @@
     ],
     "curly": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "eofline": true,
     "forin": true,
     "import-blacklist": [true, "rxjs"],
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "deprecation": {
       "severity": "warn"
     },
@@ -29,6 +36,9 @@
       "rxjs",
       "rxjs/Rx"
     ],
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "import-spacing": true,
     "indent": [
@@ -45,9 +55,12 @@
     "member-ordering": [
       true,
 <<<<<<< HEAD
+<<<<<<< HEAD
       "static-before-instance",
       "variables-before-functions"
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
       {
         "order": [
           "static-field",
@@ -56,6 +69,9 @@
           "instance-method"
         ]
       }
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     ],
     "no-arg": true,
@@ -71,12 +87,15 @@
     "no-construct": true,
     "no-debugger": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "no-duplicate-variable": true,
     "no-empty": false,
     "no-empty-interface": true,
     "no-eval": true,
     "no-inferrable-types": true,
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "no-duplicate-super": true,
     "no-empty": false,
     "no-empty-interface": true,
@@ -87,6 +106,9 @@
     ],
     "no-misused-new": true,
     "no-non-null-assertion": true,
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "no-shadowed-variable": true,
     "no-string-literal": false,
@@ -94,6 +116,10 @@
     "no-switch-case-fall-through": true,
     "no-trailing-whitespace": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "no-unnecessary-initializer": true,
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
     "no-unnecessary-initializer": true,
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
@@ -116,6 +142,10 @@
     "radix": true,
     "semicolon": [
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      true,
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
       true,
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
@@ -136,7 +166,10 @@
       }
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "typeof-compare": true,
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "unified-signatures": true,
@@ -150,10 +183,13 @@
       "check-type"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     "directive-selector": [true, "attribute", "app", "camelCase"],
     "component-selector": [true, "element", "app", "kebab-case"],
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "directive-selector": [
       true,
       "attribute",
@@ -167,6 +203,9 @@
       "kebab-case"
     ],
     "no-output-on-prefix": true,
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
@@ -177,10 +216,14 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": true,
 <<<<<<< HEAD
+<<<<<<< HEAD
     "directive-class-suffix": true,
     "no-access-missing-member": true,
     "templates-use-public": true,
     "invoke-injectable": true
+=======
+    "directive-class-suffix": true
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
     "directive-class-suffix": true
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // This file includes polyfills needed by Angular and is loaded before the app.
 // You can add your own extra polyfills to this file.
 import 'core-js/es6/symbol';
@@ -38,6 +39,8 @@ import 'zone.js/dist/zone';
 // Needed for: IE10, IE11
 // import 'classlist.js';
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
@@ -104,4 +107,7 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189

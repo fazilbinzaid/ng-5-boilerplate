@@ -1,7 +1,11 @@
 {
   "name": "ng-boilerplate",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "version": "0.0.1",
+=======
+  "version": "0.0.0",
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
   "version": "0.0.0",
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
@@ -10,7 +14,11 @@
     "ng": "ng",
     "start": "ng serve",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "build": "ng build",
+=======
+    "build": "ng build --prod",
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
     "build": "ng build --prod",
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
@@ -20,6 +28,7 @@
   },
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "@angular/animations": "^5.2.2",
     "@angular/common": "^5.2.2",
@@ -60,6 +69,8 @@
     "tslint": "^5.9.1",
     "typescript": "^2.6.2"
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
@@ -93,6 +104,9 @@
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
     "typescript": "~2.5.3"
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
   }
 }

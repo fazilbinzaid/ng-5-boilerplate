@@ -1,6 +1,10 @@
 // Karma configuration file, see link for more information
 <<<<<<< HEAD
+<<<<<<< HEAD
 // https://karma-runner.github.io/0.13/config/configuration-file.html
+=======
+// https://karma-runner.github.io/1.0/config/configuration-file.html
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 =======
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
@@ -8,6 +12,7 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
+<<<<<<< HEAD
 <<<<<<< HEAD
     frameworks: ['jasmine', 'angular-cli'],
     plugins: [
@@ -39,6 +44,8 @@ module.exports = function (config) {
               ? ['progress', 'karma-remap-istanbul']
               : ['progress'],
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     frameworks: ['jasmine', '@angular/cli'],
     plugins: [
       require('karma-jasmine'),
@@ -58,6 +65,9 @@ module.exports = function (config) {
       environment: 'dev'
     },
     reporters: ['progress', 'kjhtml'],
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
     port: 9876,
     colors: true,

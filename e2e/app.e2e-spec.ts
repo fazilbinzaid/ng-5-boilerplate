@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { LbdFreeAngularcliPage } from './app.po';
 
 describe('lbd-free-angularcli App', function() {
@@ -12,6 +13,8 @@ describe('lbd-free-angularcli App', function() {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('app works!');
 =======
+=======
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
 import { AppPage } from './app.po';
 
 describe('ng-boilerplate App', () => {
@@ -24,6 +27,9 @@ describe('ng-boilerplate App', () => {
   it('should display welcome message', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Welcome to app!');
+<<<<<<< HEAD
+>>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
+=======
 >>>>>>> 9dc88cf0741ddaf0286b707d008b1d4e072cc189
   });
 });
