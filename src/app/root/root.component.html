@@ -1,13 +1,18 @@
 <div class="wrapper">
-	<div class="sidebar" data-color="blue" data-image="">
+	<div class="sidebar" data-color="blue" data-image="" *ngIf="auth.authState | async" >
 		<app-sidebar></app-sidebar>
 		<div class="sidebar-background" style="background-image: url(/assets/img/sidebar-5.jpg)"></div>
 	</div>
 
-	<div class="main-panel">
-		<navbar-cmp></navbar-cmp>
+	<div
+		[ngClass]="{
+			'main-panel': auth.authState | async,
+			'animated': !(auth.authState | async),
+			'fadeInDown': !(auth.authState | async)
+		}">
+		<navbar-cmp *ngIf="auth.authState | async" ></navbar-cmp>
 		<router-outlet></router-outlet>
-		<div *ngIf="isMap('maps')">
+		<div>
 			<footer-cmp></footer-cmp>
 		</div>
 	</div>

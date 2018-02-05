@@ -17,7 +17,10 @@
     ],
     "paths": {
         "@common/*": ["./app/common/*"],
-        "@removables/*": ["./app/removables/*"]
+        "@removables/*": ["./app/removables/*"],
+        "@server/*": ["./server/*"],
+        "@src/*": ["./*"],
+        "@components/*": ["./app/components/*"]
     }
   }
 }

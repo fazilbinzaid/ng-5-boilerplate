@@ -14,6 +14,7 @@ export const ROUTES: RouteInfo[] = [
     { path: 'typography', title: 'Typography',  icon:'pe-7s-news-paper', class: '' },
     { path: 'icons', title: 'Icons',  icon:'pe-7s-science', class: '' },
     { path: 'notifications', title: 'Notifications',  icon:'pe-7s-bell', class: '' },
+    { path: 'login', title: 'Login',  icon:'pe-7s-lock', class: '' },
 ];
 
 @Component({
