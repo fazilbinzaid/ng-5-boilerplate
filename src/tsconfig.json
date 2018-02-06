@@ -20,7 +20,8 @@
         "@removables/*": ["./app/removables/*"],
         "@server/*": ["./server/*"],
         "@src/*": ["./*"],
-        "@components/*": ["./app/components/*"]
+        "@components/*": ["./app/components/*"],
+        "@services/*": ["./app/services/*"]
     }
   }
 }

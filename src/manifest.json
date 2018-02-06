@@ -1,0 +1,23 @@
+{
+  "gcm_sender_id": "103953800507",
+  "short_name": "Web App",
+  "name": "Ng Boilerplate",
+  "icons": [
+    {
+      "src": "assets/img/favicon.ico",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/img/favicon.ico",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "assets/img/favicon.ico",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}

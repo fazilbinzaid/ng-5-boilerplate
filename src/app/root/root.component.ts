@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit, OnDestroy } from '@angular/core';
 import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { Router } from '@angular/router';
@@ -11,7 +11,7 @@ import { Observable } from 'rxjs/Observable';
   templateUrl: './root.component.html',
   styleUrls: ['./root.component.css']
 })
-export class AppComponent implements OnInit, AfterViewInit {
+export class AppComponent implements OnInit, AfterViewInit, OnDestroy {
 
   constructor(
     public location: Location,
@@ -24,9 +24,9 @@ export class AppComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit() {
-    if (!this.auth.auth.currentUser) {
-      // this.router.navigate(['login']);
-    }
+  }
+
+  ngOnDestroy() {
   }
 
 }

@@ -3,7 +3,9 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/module';
 import { environment } from './environments/environment';
-import server from '@server/config';
+
+import '@server/config';
+import '@server/messaging';
 
 
 if (environment.production) {

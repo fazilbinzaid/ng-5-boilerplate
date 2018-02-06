@@ -12,15 +12,17 @@ import { TypographyComponent } from '@removables/typography/typography.component
 import { IconsComponent } from '@removables/icons/icons.component';
 import { NotificationsComponent } from '@removables/notifications/notifications.component';
 
+import { AuthGuard } from '@services/auth.service';
+
 
 const routes: Routes =[
 
-    { path: 'dashboard',      component: HomeComponent },
-    { path: 'user',           component: UserComponent },
-    { path: 'table',          component: TablesComponent },
-    { path: 'typography',     component: TypographyComponent },
-    { path: 'icons',          component: IconsComponent },
-    { path: 'notifications',  component: NotificationsComponent },
+    { path: 'dashboard',      component: HomeComponent, canActivate: [AuthGuard] },
+    { path: 'user',           component: UserComponent, canActivate: [AuthGuard] },
+    { path: 'table',          component: TablesComponent, canActivate: [AuthGuard] },
+    { path: 'typography',     component: TypographyComponent, canActivate: [AuthGuard] },
+    { path: 'icons',          component: IconsComponent, canActivate: [AuthGuard] },
+    { path: 'notifications',  component: NotificationsComponent, canActivate: [AuthGuard] },
 
     { path: 'login',          component: LoginComponent },
 

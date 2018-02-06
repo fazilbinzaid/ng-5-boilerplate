@@ -25,6 +25,8 @@ import { NotificationsComponent } from '@removables/notifications/notifications.
 import { FooterModule } from '@removables/shared/footer/footer.module';
 import { LbdModule } from '@removables/lbd/lbd.module';
 
+import { AuthGuard } from '@services/auth.service';
+
 
 @NgModule({
 
@@ -55,7 +57,7 @@ import { LbdModule } from '@removables/lbd/lbd.module';
     AngularFireAuthModule,
   ],
 
-  providers: [],
+  providers: [AuthGuard],
 
   bootstrap: [AppComponent]
 })
