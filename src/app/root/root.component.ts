@@ -25,7 +25,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     if (!this.auth.auth.currentUser) {
-      this.router.navigate(['login']);
+      // this.router.navigate(['login']);
     }
   }
 

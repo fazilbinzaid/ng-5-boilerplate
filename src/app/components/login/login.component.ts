@@ -9,7 +9,7 @@ import { Location } from '@angular/common';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements AfterContentChecked {
+export class LoginComponent {
 
   constructor(
   	private auth: AngularFireAuth,
@@ -19,15 +19,6 @@ export class LoginComponent implements AfterContentChecked {
 
   email: string = '';
   password: string = '';
-
-  ngAfterContentChecked() {
-  	// console.log('this.auth', this.auth)
-  	console.log('!!this.auth.currentUser', this.auth.authState
-  	// this.auth.authState.
-  	if (!!this.auth.auth.currentUser) {
-  		// this.location.back();
-  	}
-  }
 
   login() {
     let { email, password } = this;
